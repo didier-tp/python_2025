@@ -1,0 +1,15 @@
+*.zip
+*.gz
+*-ubyte
+**/*.zip
+**/*.gz
+**/*-ubyte
+*/raw
+*/.idea
+*/.venv
+*/__pycache__
+**/raw
+**/.idea
+**/.venv
+**/__pycache__
+
