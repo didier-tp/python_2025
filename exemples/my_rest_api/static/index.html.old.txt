@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+    <h3>devise-api rest</h3>
+    <a href="../devise-api/v1/devises"> devises</a>
+</body>
+</html>

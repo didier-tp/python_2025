@@ -1,0 +1,11 @@
+<films>
+	<film titre='Titanic' date='1998-01-07' realisateur='James Cameron' acteurs='Leonardo DiCaprio, Kate Winslet, Billy Zane' />
+	<film titre='Arrete-moi si tu peux' date='2003-02-12' realisateur='Steven Spielberg' acteurs='Leonardo DiCaprio, Tom Hanks, Christopher Walken' />
+	<film titre='Raison et sentiments' date='1996-02-28' realisateur='Ang Lee' acteurs='Emma Thompson, Kate Winslet, Hugh Grant' />
+	<film titre='Seul au monde' date='2001-01-17' realisateur='Robert Zemeckis' acteurs='Tom Hanks, Helen Hunt, Nick Searcy' />
+	<film titre='La Ligne verte' date='2000-03-01' realisateur='Frank Darabont' acteurs='Tom Hanks, Michael Clarke Duncan, David Morse' />
+	<film titre='Forrest Gump' date='1994-10-05' realisateur=' Robert Zemeckis' acteurs='Tom Hanks, Gary Sinise, Robin Wright' />
+	<film titre='Un Singe en hiver' date='1962-05-11' realisateur='Henri Verneuil' acteurs='Jean-Paul Belmondo, Jean Gabin, Noel Roquevert' />
+	<film titre='L&apos;Homme de Rio' date='2013-05-14' realisateur='Philippe de Broca' acteurs='Jean-Paul Belmondo, Françoise Dorleac, Jean Servais' />
+	<film titre='The Artist' date='2011-10-12' realisateur=' Michel Hazanavicius' acteurs='Jean Dujardin, Berenice Bejo, John Goodman' />
+</films>

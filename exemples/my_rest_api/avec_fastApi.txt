@@ -1,0 +1,20 @@
+avec fastApi:
+-------
+
+install:
+python -m pip install fastapi[standard] uvicorn
+python -m pip install pytest
+
+pip freeze > requirements.txt
+
+lancement en phase de dev:
+   fastapi dev main.py
+lancement en phase de prod:
+   uvicorn main:app --reload
+
+default url: http://127.0.0.1:8000/
+
+tuto: 
+https://realpython.com/fastapi-python-web-apis/
+https://fastapi.tiangolo.com/tutorial/first-steps/
+https://viktorsapozhok.github.io/fastapi-oauth2-postgres/

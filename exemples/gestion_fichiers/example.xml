@@ -1,0 +1,8 @@
+<pays name="France">
+    <ville name="Paris" population="2133111" />
+    <ville name="Lyon" population="522250" />
+    <ville name="Lille" population="236710" />
+    <ville name="Bordeaux" population="261804" />
+    <ville name="Toulouse" population="504078" />
+    <ville name="Marseille" population="873076" />
+</pays>

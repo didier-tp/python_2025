@@ -1,0 +1,14 @@
+{
+    "nom": "Bon",
+    "age": 45,
+    "fou": false,
+    "adresse": {
+        "rue": "12 rue elle",
+        "codePostal": "75008",
+        "ville": "Paris"
+    },
+    "sports": [
+        "velo",
+        "foot"
+    ]
+}
