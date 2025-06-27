@@ -9,3 +9,9 @@ print("type de x= " , type(x))
 y=6
 z=x+y
 print(z)
+
+age=33
+if age >=18:
+    print("majeur")
+else:
+    print("mineur")
