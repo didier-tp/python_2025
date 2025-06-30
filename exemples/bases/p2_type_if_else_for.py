@@ -136,7 +136,7 @@ s="abc"
 for c in s:
 	print("c=",c)
 
-languages=["python" , "javascript"];
+languages=["python" , "javascript"]
 for l in languages:
 	print("l=",l)
 else:
