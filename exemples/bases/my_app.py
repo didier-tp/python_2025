@@ -10,6 +10,7 @@ from my_util.op3 import triple_de
 from my_util.op4 import *
 
 x=12
+
 print(my_fct.double_de(x)) # affiche 24
 print(my_fct.moitie_de(x)) # affiche 6
 
