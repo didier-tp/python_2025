@@ -7,7 +7,9 @@ liste_dico_dates =[
 # construire et afficher des dates sous forme de chaines (via .format() )
 
 for dico_date in liste_dico_dates :
+    #s_date = str(dico_date['jour']) + " " + dico_date['mois'] + " " + str(dico_date['annee'])
     s_date = "{0} {1} {2}".format(dico_date['jour'] , dico_date['mois'] , dico_date['annee'] )
+    #s_date = f"{dico_date['jour']} {dico_date['mois']} {dico_date['annee']}"
     print("s_date=",s_date)
 
 #recuperer et afficher date_et_heure (maintenant):
