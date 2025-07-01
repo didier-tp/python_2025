@@ -1,5 +1,5 @@
 couleurs_en_fr = { 'red' : 'rouge',
-                   'blue' : 'blue'}
+                   'blue' : 'bleu'}
 couleurs_en_fr['green']='vert'
 
 print("traduction de red=", couleurs_en_fr['red'])

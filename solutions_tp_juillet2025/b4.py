@@ -10,7 +10,7 @@ for v in values:
         dico_stats['nb_positif']+=1
     else:
         dico_stats['nb_negatif']+=1
-    if v%2==0 :
+    if (v%2)==0 :
         dico_stats['nb_pair']+=1
     else:
         dico_stats['nb_impair']+=1
