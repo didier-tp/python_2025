@@ -43,6 +43,10 @@ try:
     res2 = div_after_decrement(3,1) # (3-1)/(1-1) = 3/0 --> exception
     print("(3-1)/(1-1) = 3/0=",res2)
 except Exception as err:
-    print("(3-1)/(1-1) = 3/0=>exception =" ,err,err.__notes__ )
+    print("(3-1)/(1-1) = 3/0=>exception =" ,err)
+    try:
+        print(err.__notes__)
+    except:
+        pass
 
 
