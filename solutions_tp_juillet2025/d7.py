@@ -1,0 +1,1 @@
+print("d7.py ... Essais libres sur os, sys et shutil ou bien fichier binaire en accès direct ...")
