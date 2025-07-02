@@ -26,6 +26,8 @@ for task in liste_taches:
 def my_div(a,b):
     return a/b
 
+
+  
 def div_after_decrement(a,b):
     try:
         return my_div(a-1,b-1)
@@ -33,6 +35,7 @@ def div_after_decrement(a,b):
         e.add_note(f"after division of {a}-1={a-1}  by {b}-1={b-1} ")
         raise# implicitly as raise e
       
+
        
 
 res=div_after_decrement(9,5) # (9-1)/(5-1) = 8/4=2
@@ -43,6 +46,10 @@ try:
     res2 = div_after_decrement(3,1) # (3-1)/(1-1) = 3/0 --> exception
     print("(3-1)/(1-1) = 3/0=",res2)
 except Exception as err:
-    print("(3-1)/(1-1) = 3/0=>exception =" ,err,err.__notes__ )
+    print("(3-1)/(1-1) = 3/0=>exception =" ,err) 
+    try:
+        print(err.__notes__)
+    except:
+        pass
 
 
