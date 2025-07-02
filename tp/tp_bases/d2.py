@@ -1,5 +1,5 @@
 def my_str_len(s):
-    if isinstance(s,str): #verifier si s est de type str
+    if isinstance(s,str) : #verifier si s est de type str
         return len(s)
     else:
         #raise Exception("s pas de type str") #possible
