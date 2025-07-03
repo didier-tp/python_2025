@@ -4,6 +4,10 @@ class Personne():
         self.nom=nom
         self.age=age
 
-    # coder aussi __str__(self)
-    # coder aussi incrementer_age(self)       
+    def __str__(self):
+        return f"Personne prenom={self.prenom} nom={self.nom} age={self.age}"
+    
+    def incrementer_age(self):
+        #self.age = self.age + 1  
+        self.age +=1     
 
