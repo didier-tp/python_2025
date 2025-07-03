@@ -7,4 +7,4 @@ class Employe(Personne):
         self.fonction=fonction
 
     def __str__(self):
-        return f"Employe salaire={self.salaire} fonction={self.fonction} heritant de " + super().__str__()
+        return f"Employe salaire={self.salaire} fonction={self.fonction} heritant de " +  super().__str__()
