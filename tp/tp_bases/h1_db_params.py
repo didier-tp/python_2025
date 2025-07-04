@@ -11,8 +11,9 @@ my_db_url_mysql=f"..."
 # en plus de pip install sqlalchemy
 #postgresql+psycopg2://user:password@hostname/database_name (default port = 5432)
 my_db_url_posgres=f"postgresql+psycopg2://postgres:root@localhost/{my_db_name}"
+#my_db_url_posgres=f"postgresql+psycopg2://postgres:1234@localhost/{my_db_name}"
 
-my_db_url=my_db_url_sqlite  # ou bien url mysql ou autre (ex : postgres)
-#my_db_url=my_db_url_posgres
+#my_db_url=my_db_url_sqlite  # ou bien url mysql ou autre (ex : postgres)
+my_db_url=my_db_url_posgres
 
 my_db_sql_alchemy_engine = create_engine(my_db_url)
