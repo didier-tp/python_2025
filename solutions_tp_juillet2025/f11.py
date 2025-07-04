@@ -1,0 +1,1 @@
+print("Essais libres sur expressions régulières ou autres syntaxes avancées de python")

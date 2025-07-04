@@ -1,4 +1,11 @@
 numbersAsStrings = [ "2" , "-1" , "45" , "6"]
+
+numbers2=[]
+for sn in numbersAsStrings:
+    vn = int(sn)
+    numbers2.append(vn)
+print("numbers2=",numbers2)
+
 numbers = [ int(sn) for sn in numbersAsStrings ]
 print("numbers=",numbers) # [2, -1, 45, 6]
 
