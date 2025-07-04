@@ -1,3 +1,5 @@
+#pip install sqlalchemy 
+# est nécessaire soit au niveau global , soit au niveau .venv
 from sqlalchemy import create_engine 
 my_db_name="minibank_db"
 
