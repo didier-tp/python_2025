@@ -11,4 +11,7 @@ class Compte():
         self.solde = self.solde -montant
 
     def crediter(self,montant):
-        self.solde = self.solde +montant        
+        self.solde = self.solde +montant    
+
+    def __gt__(self,other):
+        return (self.solde > other.solde)    
